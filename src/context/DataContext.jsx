@@ -11,11 +11,13 @@ export const useData = () => {
 export function DataProvider({ children }) {
     const [dictionary, setDictionary] = useState(new Dictionary());
 
+    //การตรวจสอบข้อมูลเริ่มต้น
     useEffect(() => {
         const initDictionary = new Dictionary();
         const localVocabulary = localStorage.getItem('dictionary');
 
-        if (localVocabulary) {
+        // ตรวจสอบข้อมูลใน localstorage
+        if (localVocabulary) {  // ถ้ามีให้ดึงมาจาก localstorage ในกรณี update delete add จะเก็บค่าไว้
             console.log('use local storage');
             // เรียงลำดับตัวอักษร
             const sortedVocabulary = JSON.parse(localVocabulary).sort((a, b) => a.vocabulary.localeCompare(b.vocabulary));
@@ -25,7 +27,7 @@ export function DataProvider({ children }) {
             });
 
             setDictionary(initDictionary);
-        } else {
+        } else {    // ถ้าไม่มีให้ใช้ file JSON
             console.log('use JSON');
             // เรียงลำดับตัวอักษร
             const sortedVocabulary = initVocabulary.sort((a, b) => a.vocabulary.localeCompare(b.vocabulary));
@@ -39,6 +41,7 @@ export function DataProvider({ children }) {
 
     }, []);
 
+    // สำหรับการ CRUD ถ้ามีการกระทำดังกล่าวให้ update ข้อมูลเข้า data storage ด้วย
     const setStorage = (data) => {
         localStorage.setItem('dictionary', JSON.stringify(data));
     }

@@ -32,7 +32,7 @@ const MainLayout = () => {
                     zIndex: 20
                 }}>
 
-                    <Button type="text" size="large" onClick={ () => navigate('/') }>
+                    <Button type="text" size="large" onClick={() => navigate('/')}>
                         <Space align="center">
                             <img src={'/dictionary.png'} style={{ display: 'block', width: '25px' }} />
                             <Typography.Text strong>Nerdtionary</Typography.Text>
@@ -61,7 +61,14 @@ const MainLayout = () => {
                     boxShadow: '0 0 10px 0 rgba(0,0,0,0.2)',
                     zIndex: 20
                 }}>
-                    Footer
+                    <Space>
+                        <Typography.Text>
+                            2310717302008
+                        </Typography.Text>
+                        <Typography.Text>
+                            Danusorn Nikornbua
+                        </Typography.Text>
+                    </Space>
                 </Footer>
             </Layout>
         </React.Fragment>

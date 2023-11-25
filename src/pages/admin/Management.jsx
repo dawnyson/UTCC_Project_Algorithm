@@ -26,6 +26,7 @@ const Management = () => {
 
         const updatedData = dictionary.getAll();
         setData(updatedData);
+        setStorage(updatedData)
     };
 
     const handleEdit = (record) => {

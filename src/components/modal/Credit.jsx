@@ -11,7 +11,7 @@ const Content = () => (
         </Space>
         <Space>
             <Avatar src='/antd.png' size={30} />
-            <Typography.Text>React UI library</Typography.Text>
+            <Typography.Text>Ant Design React UI library</Typography.Text>
         </Space>
         <Typography.Text strong>Data structures and algorithms</Typography.Text>
         <Typography.Text>Circular Doubly Linked List</Typography.Text>
