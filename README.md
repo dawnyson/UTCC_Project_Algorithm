@@ -36,4 +36,5 @@
 ## เพิ่มเติม
 หน้าตาของเว็บไซต์ 
 สามารถ Download Code ทำการรันคำสั่ง npm install เพื่อติดตั้ง Node_Module และ รันคำสั่ง npm start เพื่อเปิดดูโปรเจค
-![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/6d249cc2-e55b-4643-8977-84f1a87b14df)
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/4fa8f9ed-62aa-4772-9d24-876e6eab070b)
+
