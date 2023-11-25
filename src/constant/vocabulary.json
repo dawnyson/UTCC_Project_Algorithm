@@ -1,0 +1,407 @@
+[
+    {
+        "vocabulary": "Initiative",
+        "category": "noun",
+        "translation": "ความคิดริเริ่ม, แผนการริเริ่ม"
+    },
+    {
+        "vocabulary": "Effectiveness",
+        "category": "noun",
+        "translation": "ประสิทธิผล"
+    },
+    {
+        "vocabulary": "Delegation",
+        "category": "noun",
+        "translation": "ตัวแทน"
+    },
+    {
+        "vocabulary": "Expert",
+        "category": "noun",
+        "translation": "ผู้เชี่ยวชาญ"
+    },
+    {
+        "vocabulary": "Tactic",
+        "category": "noun",
+        "translation": "เล่ห์เหลี่ยม, ชั้นเชิง"
+    },
+    {
+        "vocabulary": "Proposal",
+        "category": "noun",
+        "translation": "ข้อเสนอ, แผนงาน"
+    },
+    {
+        "vocabulary": "Selection",
+        "category": "noun",
+        "translation": "การคัดเลือก"
+    },
+    {
+        "vocabulary": "Praise",
+        "category": "noun",
+        "translation": "คำชม"
+    },
+    {
+        "vocabulary": "Observation",
+        "category": "noun",
+        "translation": "การสังเกต"
+    },
+    {
+        "vocabulary": "Workload",
+        "category": "noun",
+        "translation": "จำนวนงาน"
+    },
+    {
+        "vocabulary": "Goods",
+        "category": "noun",
+        "translation": "สินค้า"
+    },
+    {
+        "vocabulary": "Replacement",
+        "category": "noun",
+        "translation": "ทดแทน"
+    },
+    {
+        "vocabulary": "Matter",
+        "category": "noun",
+        "translation": "ปัญหา, เหตุการณ์"
+    },
+    {
+        "vocabulary": "Confirmation",
+        "category": "noun",
+        "translation": "การรับรอง"
+    },
+    {
+        "vocabulary": "Figures",
+        "category": "noun",
+        "translation": "ตัวเลข"
+    },
+    {
+        "vocabulary": "Requirement",
+        "category": "noun",
+        "translation": "ความประสงค์"
+    },
+    {
+        "vocabulary": "Deadline",
+        "category": "noun",
+        "translation": "วันกำหนดส่งงาน"
+    },
+    {
+        "vocabulary": "Opportunity",
+        "category": "noun",
+        "translation": "โอกาส"
+    },
+    {
+        "vocabulary": "Objective",
+        "category": "noun",
+        "translation": "จุดประสงค์"
+    },
+    {
+        "vocabulary": "Overview",
+        "category": "noun",
+        "translation": "ภาพรวม"
+    },
+    {
+        "vocabulary": "Attention",
+        "category": "noun",
+        "translation": "ความสนใจ"
+    },
+    {
+        "vocabulary": "Assumption",
+        "category": "noun",
+        "translation": "สมมติฐาน"
+    },
+    {
+        "vocabulary": "Point",
+        "category": "noun",
+        "translation": "ข้อสำคัญ"
+    },
+    {
+        "vocabulary": "Survey",
+        "category": "noun",
+        "translation": "แบบสอบถาม"
+    },
+    {
+        "vocabulary": "Feature",
+        "category": "noun",
+        "translation": "ลักษณะโดดเด่น"
+    },
+    {
+        "vocabulary": "Analysis",
+        "category": "noun",
+        "translation": "วิเคราะห์"
+    },
+    {
+        "vocabulary": "Notice",
+        "category": "noun",
+        "translation": "แจ้งเตือน"
+    },
+    {
+        "vocabulary": "Maximize",
+        "category": "verb",
+        "translation": "ขยายใหญ่สุด, ทำให้ใหญ่สุด"
+    },
+    {
+        "vocabulary": "Occupy",
+        "category": "verb",
+        "translation": "ครอบครอง"
+    },
+    {
+        "vocabulary": "Compare",
+        "category": "verb",
+        "translation": "เปรียบเทียบ"
+    },
+    {
+        "vocabulary": "Implement",
+        "category": "verb",
+        "translation": "นำมาใช้"
+    },
+    {
+        "vocabulary": "Perceive",
+        "category": "verb",
+        "translation": "เข้าใจ, รับรู้"
+    },
+    {
+        "vocabulary": "Receive",
+        "category": "verb",
+        "translation": "ได้รับ"
+    },
+    {
+        "vocabulary": "Deserve",
+        "category": "verb",
+        "translation": "เหมาะสม"
+    },
+    {
+        "vocabulary": "Admire",
+        "category": "verb",
+        "translation": "ชื่นชม, นับถือ"
+    },
+    {
+        "vocabulary": "Pressure",
+        "category": "verb",
+        "translation": "กดดัน"
+    },
+    {
+        "vocabulary": "Expect",
+        "category": "verb",
+        "translation": "คาดหวัง"
+    },
+    {
+        "vocabulary": "Hinder",
+        "category": "verb",
+        "translation": "ขัดขวาง"
+    },
+    {
+        "vocabulary": "Deliver",
+        "category": "verb",
+        "translation": "ส่ง"
+    },
+    {
+        "vocabulary": "Update",
+        "category": "verb",
+        "translation": "ปรับปรุงให้ทันสมัย"
+    },
+    {
+        "vocabulary": "Abandon",
+        "category": "verb",
+        "translation": "ละทิ้ง"
+    },
+    {
+        "vocabulary": "Disapprove",
+        "category": "verb",
+        "translation": "ไม่ชอบ"
+    },
+    {
+        "vocabulary": "Assent",
+        "category": "verb",
+        "translation": "ยินยอม"
+    },
+    {
+        "vocabulary": "Estimate",
+        "category": "verb",
+        "translation": "ประมาณ"
+    },
+    {
+        "vocabulary": "Assume",
+        "category": "verb",
+        "translation": "สันนิษฐาน"
+    },
+    {
+        "vocabulary": "Demand",
+        "category": "verb",
+        "translation": "ต้องการ"
+    },
+    {
+        "vocabulary": "Specific",
+        "category": "verb",
+        "translation": "เฉพาะเจาะจง"
+    },
+    {
+        "vocabulary": "Attend",
+        "category": "verb",
+        "translation": "เข้าร่วม"
+    },
+    {
+        "vocabulary": "Present",
+        "category": "verb",
+        "translation": "บรรยาย"
+    },
+    {
+        "vocabulary": "Elaborate",
+        "category": "verb",
+        "translation": "ขยายความ"
+    },
+    {
+        "vocabulary": "Require",
+        "category": "verb",
+        "translation": "ต้องการ"
+    },
+    {
+        "vocabulary": "Inform",
+        "category": "verb",
+        "translation": "แจ้งให้ทราบ"
+    },
+    {
+        "vocabulary": "Reasonable",
+        "category": "adjective",
+        "translation": "มีเหตุผล, เหมาะสม"
+    },
+    {
+        "vocabulary": "Effective",
+        "category": "adjective",
+        "translation": "ประสิทธิภาพ"
+    },
+    {
+        "vocabulary": "Face-to-face",
+        "category": "adjective",
+        "translation": "เผชิญหน้ากัน"
+    },
+    {
+        "vocabulary": "Troublesome",
+        "category": "adjective",
+        "translation": "เป็นภาระ, ยุ่งยาก"
+    },
+    {
+        "vocabulary": "Collaborative",
+        "category": "adjective",
+        "translation": "ร่วมมือกัน"
+    },
+    {
+        "vocabulary": "Groundbreaking",
+        "category": "adjective",
+        "translation": "นวัตกรรมใหม่, สิ่งใหม่ ๆ"
+    },
+    {
+        "vocabulary": "Uninspired",
+        "category": "adjective",
+        "translation": "ไม่น่าสนใจ"
+    },
+    {
+        "vocabulary": "Productive",
+        "category": "adjective",
+        "translation": "การที่เราทำงานอย่างมีประสิทธิภาพ"
+    },
+    {
+        "vocabulary": "Faulty",
+        "category": "adjective",
+        "translation": "ผิดพลาด"
+    },
+    {
+        "vocabulary": "Final",
+        "category": "adjective",
+        "translation": "สุดท้าย"
+    },
+    {
+        "vocabulary": "Urgent",
+        "category": "adjective",
+        "translation": "ด่วน"
+    },
+    {
+        "vocabulary": "Up-to-date",
+        "category": "adjective",
+        "translation": "ทันสมัย"
+    },
+    {
+        "vocabulary": "In particular",
+        "category": "adjective",
+        "translation": "โดยเฉพาะอย่างยิ่ง"
+    },
+    {
+        "vocabulary": "Extra",
+        "category": "adjective",
+        "translation": "เพิ่ม, มากขึ้น"
+    },
+    {
+        "vocabulary": "Formal",
+        "category": "adjective",
+        "translation": "ทางการ"
+    },
+    {
+        "vocabulary": "Informal",
+        "category": "adjective",
+        "translation": "ไม่เป็นทางการ"
+    },
+    {
+        "vocabulary": "Hectic",
+        "category": "adjective",
+        "translation": "ยุ่ง"
+    },
+    {
+        "vocabulary": "Genuine",
+        "category": "adjective",
+        "translation": "แท้"
+    },
+    {
+        "vocabulary": "Annual",
+        "category": "adjective",
+        "translation": "ประจำปี"
+    },
+    {
+        "vocabulary": "Essential",
+        "category": "adjective",
+        "translation": "สำคัญ"
+    },
+    {
+        "vocabulary": "Necessary",
+        "category": "adjective",
+        "translation": "จำเป็น"
+    },
+    {
+        "vocabulary": "Full-time",
+        "category": "adjective",
+        "translation": "ประจำ, เต็มเวลา"
+    },
+    {
+        "vocabulary": "Part-time",
+        "category": "adjective",
+        "translation": "ไม่เต็มเวลา"
+    },
+    {
+        "vocabulary": "Unique",
+        "category": "adjective",
+        "translation": "แตกต่าง"
+    },
+    {
+        "vocabulary": "Accessible",
+        "category": "adjective",
+        "translation": "เข้าถึงได้"
+    },
+    {
+        "vocabulary": "Flexible",
+        "category": "adjective",
+        "translation": "ยืดหยุ่นได้"
+    },
+    {
+        "vocabulary": "Properly",
+        "category": "adverb",
+        "translation": "อย่างถูกต้อง, อย่างสมควร"
+    },
+    {
+        "vocabulary": "Absolutely",
+        "category": "adverb",
+        "translation": "อย่างแน่นอน"
+    },
+    {
+        "vocabulary": "Unfortunately",
+        "category": "adverb",
+        "translation": "น่าเสียดาย"
+    }
+]
