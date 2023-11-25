@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# แนวคิดในการสร้างโปรแกรม
+ในระบบ Dictionary ที่รองรับ CRUD operations มีการเลือกใช้ React Library ซึ่งเป็น Javascript Library ที่นิยมในปัจจุบัน ซึ่งสามารถเปลี่ยน UI Interface ได้ทันทีโดยไม่ต้อง Refresh และ ความสวยงามของเว็บ Application มีการเลือกใช้ Ant Design ซึ่งสามารถลดเวลาในการออกแบบได้มากทีเดียว 
+ซึ่งตัว Application จะให้ผู้ใชงานทำการค้นหาข้อมูล เมื่อเจอคำศัพท์ที่มีอยู่ก็จะสามารถดูคำถัดไป หรือ คำก่อนหน้านี้ได้ ขึ้นอยู่กับโหนดข้อมูลที่เชื่อมต่อกับ previous, next ในโหนดปัจจุบัน อีกทั้งยังมีหน้าจัดการระบบที่สามารถ ลบ แก้ไข เพิ่ม คำศัพท์ อีกด้วย 
+โดยข้อมูลทีทำการ ลบ แก้ไข และเพิ่ม จะมีการจัดเก็บข้อมูลทั้งหมดไว้ใน localstorage และเรียกใช้ทุกครั้งมีเมื่อการรีเฟรชหน้าเว็บไซต์ใน Context
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# การเลือกใช้โครงสร้างข้อมูล
+จากโจทย์ที่ต้องการโครงสร้างข้อมูลที่สามารถไปดูข้อมูลก่อนหน้าและข้อมูลถัดไปได้ จึงเลือกใช้ Doubly Linked List รูปแบบ Circular ที่ทำให้โหนดตัวแรกและโหนดสุดท้ายเชื่อมโยงกัน 
+รองรับการเชื่อมโยงข้อมูลแบบ previous, next ที่ตรงกับ concept ของโจทย์ ที่แต่ละโหนดจะมีการเชื่อมโยงตัวถัดไป และ ก่อนหน้า.
 
-## Available Scripts
+## การค้นหาที่อ้างอิงกับคำศัพท์ภาษาอังกฤษ
+เมื่อทำการพิมพ์ OnChange ก็จะเรียกใช้ function ในการค้นหาคำศัพท์ Vocabulary ที่ใกล้เคียงกันโดยการวนลูป เมื่อเจอจะทำการ set โหนดปัจจุบันเป็นค่าที่ค้นหาเจอ.
 
-In the project directory, you can run:
+## การเพิ่มข้อมูล
+ข้อมูลที่เพิ่ม หากลิสต์ว่าง โหนดใหม่จะเป็นทั้ง head และ tail ถ้าไม่ โหนดใหม่จะถูกเพิ่มที่ส่วนท้ายของลิสต์และเชื่อมต่อกับ head และ tail ที่มีอยู่.
 
-### `npm start`
+## การแก้ไข
+ค้นหาโหนดที่มี vocabulary ตรงกับที่ระบุ และอัปเดตประเภทและการแปล หากพบโหนดที่ตรงกัน
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## การลบ
+ค้นหาโหนดที่มี vocabulary ตรงกับที่ระบุ และลบโหนดนั้นออกจากลิสต์ หลังจากลบ จะต้องอัปเดต next และ previous ของโหนดที่อยู่ติดกัน หลังจากค่าที่ลบ
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## การเปลี่ยนไปยังข้อมูลถัดไป
+เปลี่ยนค่า current ไปยังโหนดที่เชื่อมต่อด้วย next
 
-### `npm test`
+## การเปลี่ยนไปยังข้อมูลก่อนหน้า
+เปลี่ยนค่า current ไปยังโหนดที่เชื่อมต่อด้วย previous
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## เพิ่มเติม
+หน้าตาของเว็บไซต์ 
+สามารถ Download Code ทำการรันคำสั่ง npm install เพื่อติดตั้ง Node_Module และ รันคำสั่ง npm start เพื่อเปิดดูโปรเจค
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/6d249cc2-e55b-4643-8977-84f1a87b14df)
