@@ -9,21 +9,28 @@
 
 ## การค้นหาที่อ้างอิงกับคำศัพท์ภาษาอังกฤษ
 เมื่อทำการพิมพ์ OnChange ก็จะเรียกใช้ function ในการค้นหาคำศัพท์ Vocabulary ที่ใกล้เคียงกันโดยการวนลูป เมื่อเจอจะทำการ set โหนดปัจจุบันเป็นค่าที่ค้นหาเจอ.
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/bcc878b0-da6e-4544-9ea9-5c96ab847ac7)
 
 ## การเพิ่มข้อมูล
 ข้อมูลที่เพิ่ม หากลิสต์ว่าง โหนดใหม่จะเป็นทั้ง head และ tail ถ้าไม่ โหนดใหม่จะถูกเพิ่มที่ส่วนท้ายของลิสต์และเชื่อมต่อกับ head และ tail ที่มีอยู่.
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/6b041599-c006-43b7-889d-8ec696a2e71a)
 
 ## การแก้ไข
 ค้นหาโหนดที่มี vocabulary ตรงกับที่ระบุ และอัปเดตประเภทและการแปล หากพบโหนดที่ตรงกัน
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/91467686-d18a-4443-aee5-69dfb6332b54)
 
 ## การลบ
 ค้นหาโหนดที่มี vocabulary ตรงกับที่ระบุ และลบโหนดนั้นออกจากลิสต์ หลังจากลบ จะต้องอัปเดต next และ previous ของโหนดที่อยู่ติดกัน หลังจากค่าที่ลบ
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/32dbed44-0ee8-4ecb-96d6-87d4a75c00c0)
 
 ## การเปลี่ยนไปยังข้อมูลถัดไป
 เปลี่ยนค่า current ไปยังโหนดที่เชื่อมต่อด้วย next
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/a9f909df-5f16-4ee4-961b-d49a11b4f41d)
 
 ## การเปลี่ยนไปยังข้อมูลก่อนหน้า
 เปลี่ยนค่า current ไปยังโหนดที่เชื่อมต่อด้วย previous
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/7add265d-c921-4f8d-a1c1-77cbc5a0d96c)
+
 
 ## เพิ่มเติม
 หน้าตาของเว็บไซต์ 
