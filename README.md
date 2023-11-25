@@ -29,7 +29,8 @@
 
 ## การเปลี่ยนไปยังข้อมูลก่อนหน้า
 เปลี่ยนค่า current ไปยังโหนดที่เชื่อมต่อด้วย previous
-![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/7add265d-c921-4f8d-a1c1-77cbc5a0d96c)
+![image](https://github.com/dawnyson/Project_Algorithm/assets/127817052/35c55f04-9e79-40f5-be22-30bb8ec19ead)
+
 
 
 ## เพิ่มเติม
